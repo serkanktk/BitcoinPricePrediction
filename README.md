@@ -19,16 +19,17 @@ Predict the opening price of Bitcoin for 2021-07-07 using historical data from t
 Training the models using features derived from Dogecoin's data: high, low, open, and close prices.
 
 - Models Deployed:
-K-Nearest Neighbors (kNN)
-Decision Tree Regressor
-Linear Regression
-Random Forest Regressor
+  - K-Nearest Neighbors (kNN)
+  - Decision Tree Regressor
+  - Linear Regression
+  - Random Forest Regressor
+    
 3) Hyperparameter Tuning:
 Optimizing models using GridSearchCV:
+  - Random Forest Regressor
+  - K-Nearest Neighbors (kNN)
+  - Decision Tree Regressor
 
-Random Forest Regressor
-K-Nearest Neighbors (kNN)
-Decision Tree Regressor
 4) Results:
 - Statistical Correlations:
 Significant correlation observed between various price metrics of Bitcoin and Dogecoin.
@@ -36,10 +37,11 @@ E.g., The high price of Dogecoin is notably correlated with its opening price.
 - Machine Learning Predictions:
 Using several models, predictions were made for the opening price of Bitcoin on 2021-07-07. The outcomes for each model are as follows:
 
-kNN: Prediction post hyperparameter tuning.
-Decision Tree: Prediction post hyperparameter tuning.
-Linear Regression: Direct model prediction.
-Random Forest: Prediction post hyperparameter tuning.
+  - kNN: Prediction post hyperparameter tuning.
+  - Decision Tree: Prediction post hyperparameter tuning.
+  - Linear Regression: Direct model prediction.
+  - Random Forest: Prediction post hyperparameter tuning.
+
 5) Conclusion:
 Correlation analyses elucidate the interplay between different price points of both Bitcoin and Dogecoin. Furthermore, the machine learning models were adept at predicting Bitcoin's opening price for a specified date, emphasizing their potential in predicting price movements based on past data.
 
