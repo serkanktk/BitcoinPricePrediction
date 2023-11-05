@@ -1,6 +1,6 @@
 # Statistical Analysis of Bitcoin and Dogecoin Price Movements
 
-## Introduction:
+# Introduction:
 
 This project provides insights into the price movement of Bitcoin and its correlation with other factors, including the prices of Dogecoin. This analysis utilizes data preprocessing, data visualization, hypothesis testing, and machine learning to predict future price movements.
 
